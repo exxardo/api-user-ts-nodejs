@@ -7,9 +7,14 @@
     "build": "tsc",
     "start:dev": "nodemon --watch 'src/' --exec 'ts-node src/index.ts'-e ts"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.21.2"
+  },
   "devDependencies": {
     "@eslint/js": "^9.18.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.7",
+    "dotenv": "^16.4.7",
     "eslint": "^9.18.0",
     "eslint-config-prettier": "^10.0.1",
     "globals": "^15.14.0",
